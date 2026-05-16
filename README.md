@@ -67,7 +67,7 @@ Download Ollama from ollama.com
 
 Pull the Llama 3 model weights in your terminal:
 
-Bash
+#### Bash
 ollama run llama3
 
 
