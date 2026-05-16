@@ -24,6 +24,7 @@ This project is built as a **Naive RAG** system and is divided into two operatio
 ## 📊 Pipeline Flowchart
 
 ```text
+
 ===========================================================================================
                                    THE RAG ARCHITECTURE
 ===========================================================================================
@@ -47,6 +48,7 @@ This project is built as a **Naive RAG** system and is divided into two operatio
                         | Generated Answer | <----- | Local LLM            | <----- | Augmented  |
                         | (User Output)    |        | (Ollama / Llama 3)   |        | Prompt     |
                         +------------------+        +----------------------+        +------------+
+```
 
 🛠️ Tech Stack & Tooling
 Orchestration Framework: LangChain & LangChain-Classic (Python)
@@ -71,7 +73,7 @@ ollama run llama3
 
 ### 2. Clone and Install Dependencies
 Clone this repository to your workspace and install the required modules:
-```bash
+bash
 git clone [https://github.com/YOUR_USERNAME/Local-RAG-System-Python.git](https://github.com/YOUR_USERNAME/Local-RAG-System-Python.git)
 cd Local-RAG-System-Python
 pip install langchain langchain-community langchain-classic sentence-transformers chromadb pypdf langchain-ollama
