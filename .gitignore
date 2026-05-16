@@ -1,0 +1,13 @@
+# Ignore local python environment and cache
+__pycache__/
+*.pyc
+
+# Ignore the local vector database folder
+chroma_db/
+
+# Ignore local documents and PDFs used for testing
+*.pdf
+
+# Ignore system specific files
+.DS_Store
+Thumbs.db
