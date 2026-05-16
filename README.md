@@ -80,12 +80,12 @@ pip install langchain langchain-community langchain-classic sentence-transformer
 3. Run the Ingestion Pipeline
 Place your target PDF (e.g., sample_policy.pdf) in the project directory, update the file name inside ingest.py, and run the extraction and embedding step:
 
-####Bash
+#### Bash
 python ingest.py
 This updates your local workspace folder with a fresh ./chroma_db index.
 
 4. Query Your Document
 Ensure Ollama is running actively in the background. Enter your specific query in query.py and run the generation loop:
 
-####Bash
+#### Bash
 python query.py
